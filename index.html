@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="icon" type="image/x-icon" href="login.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .container {
+
+            border: 2px solid black;
+            height: 400px;
+            width: 500px;
+            margin-top: 100px;
+
+
+        }
+
+        .container form {
+            padding-top: 10%;
+            padding-left: 5%;
+
+        }
+
+        .container form button {
+            text-align: center;
+        }
+
+        .fields {
+            font-size: 20px;
+            font-weight: 800;
+
+        }
+
+        label {
+            color: white;
+        }
+
+        .btn {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+        .psw {
+            margin-left: 30%;
+        }
+
+        .content {
+            border: 2px solid black;
+            height: 100px;
+            width: 600px;
+            margin-top: 18%;
+            margin-right: 120px;
+
+        }
+
+        .text {
+            text-align: center;
+            color: white;
+
+        }
+
+        .heading {
+            text-align: center;
+            color: white;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="min-continer">
+        <div class="content">
+            <h2 class="heading">Lorem, ipsum</h2>
+
+            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit minus aspernatur eos
+                perferendis
+                inventore eum
+                debitis? Voluptatem iusto accusantium dolor suscipit non tempora officia, ut, consectetur sapiente
+                excepturi
+                quam minima in provident quo itaque?</p>
+        </div>
+
+        <div class="container">
+
+            <form action="">
+                <label for="email"><b>Email Id</b></label><br>
+                <input type="text" class="fields" placeholder="Enter Email Address" name="email" required>
+                <br>
+                <label for="psw"><b>Password</b></label><br>
+                <input type="text" class="fields" placeholder="Enter Password" name="psw" required><br>
+
+                <button type="submit" class=" btn">Login</button> <br>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <label for="recovery">
+                    <span class="psw"><a href="#">Forgot Password?</a></span>
+                </label>
+
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
